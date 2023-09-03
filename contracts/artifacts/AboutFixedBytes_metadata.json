@@ -17,6 +17,13 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setValue",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -32,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Test.sol": "Test"
+			"contracts/AboutBytes.sol": "AboutFixedBytes"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -46,12 +53,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Test.sol": {
-			"keccak256": "0x1fab0d960a8d74c6a4c0dfb8f0d037b53d6d6f079c0af6df181604a3e5ec4b27",
+		"contracts/AboutBytes.sol": {
+			"keccak256": "0xa7fd108563e413e41602d0aa84e11405891cc05342e1ffbef30ec95474aaabb2",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://c37785e81a665e65141cb4f1b58aaddeadf4f0316ee97cfbbfed3b0a8ab89dab",
-				"dweb:/ipfs/QmdtZgwdab8Pi5Wg99byxQ2rayakxSSZDFf2AUpGQ7SV1S"
+				"bzz-raw://d0997c66f54f26c5cbbef407f0f58264b08f3e8c4641adcaaace65e6748b87eb",
+				"dweb:/ipfs/QmV2QvTyUr2cgQGfX5q9ZHSuVJcXefF6cyAj6SFFo1G3EV"
 			]
 		}
 	},
