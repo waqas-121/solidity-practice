@@ -11,5 +11,12 @@ contract AboutDynamicBytesArray {
         bytes memory bytesValue = bytes(value); 
         b1 =abi.encodePacked(b1,bytesValue);
     }
+
+
+    function getByIndexInBytesArray(uint index) public view returns (bytes1) {
+        
+        return b1[index];
+    }
+    
     
 }

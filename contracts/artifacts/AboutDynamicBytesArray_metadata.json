@@ -30,6 +30,25 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "getByIndexInBytesArray",
+				"outputs": [
+					{
+						"internalType": "bytes1",
+						"name": "",
+						"type": "bytes1"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -60,11 +79,11 @@
 	},
 	"sources": {
 		"contracts/AboutDynamicBytesArray.sol": {
-			"keccak256": "0x872534c7b53fb319d00b5aef77fc5264c3fa5b9a5ce18f1093cdae0cc11e3f0b",
+			"keccak256": "0x2478554bedd35f05d930835b70de08c225c2d25cc556125b966a65d3e69876d3",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://ed3e32d1e457f1e39367ff2858b7291a63aa159eb7f75d43b72a93a3b7f54791",
-				"dweb:/ipfs/QmUHE3kbrwNrYmHrds1Pfcx4eVEjiJCbtjQccLmki9ygFd"
+				"bzz-raw://f6fe8dfd17f780a443d3841eba609b8401fdf7cbf278dda9a78feb97672a20f3",
+				"dweb:/ipfs/QmawojXkeNoedLCt2hvdDrbukXPKVWvJjqy2XZxHJtbXK2"
 			]
 		}
 	},
